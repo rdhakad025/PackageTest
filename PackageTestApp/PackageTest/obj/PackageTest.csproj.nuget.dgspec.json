@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rdhakad\\source\\repos\\PackageTest\\PackageTestApp\\PackageTest\\PackageTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rdhakad\\source\\repos\\PackageTest\\PackageTestApp\\PackageTest\\PackageTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rdhakad\\source\\repos\\PackageTest\\PackageTestApp\\PackageTest\\PackageTest.csproj",
+        "projectName": "PackageTest",
+        "projectPath": "C:\\Users\\rdhakad\\source\\repos\\PackageTest\\PackageTestApp\\PackageTest\\PackageTest.csproj",
+        "packagesPath": "C:\\Users\\rdhakad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rdhakad\\source\\repos\\PackageTest\\PackageTestApp\\PackageTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rdhakad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rdhakad\\.nuget\\CongaPlatform": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://art01.apttuscloud.io/api/nuget/nuget": {},
+          "https://art01.apttuscloud.io/artifactory/api/nuget/conga-platform-nuget": {},
+          "https://getconga.jfrog.io/artifactory/api/nuget/nuget": {},
+          "https://getconga.jfrog.io/artifactory/api/nuget/platform-nuget-virtual": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Aspose.Words": {
+              "target": "Package",
+              "version": "[22.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
